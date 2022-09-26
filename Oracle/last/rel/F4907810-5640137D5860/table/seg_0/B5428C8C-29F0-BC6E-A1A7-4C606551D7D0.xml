@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5428C8C-29F0-BC6E-A1A7-4C606551D7D0" name="Tipo_Producto">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:04:05 UTC</createdTime>
+<generatorID>8C90AC31-0460-A3A1-1DDE-55B5EC7AE308</generatorID>
+<ownerDesignName>last</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo_producto" id="1003BD80-AEAA-23D4-30FF-BBF8A266C92F">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:04:05 UTC</createdTime>
+<generatorID>E3DC3D87-03BE-B3C2-CB6A-D82D25F4C4D1</generatorID>
+<ownerDesignName>last</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="E30AD9A7-901F-BCD6-B351-717D7806B82B">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:04:05 UTC</createdTime>
+<generatorID>184A9A1A-D1E6-F526-2F25-3E571FC9ECED</generatorID>
+<ownerDesignName>last</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72971F8B-4E84-7F60-4006-F69D92DDCF9E" name="Tipo_Producto_PK">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:04:05 UTC</createdTime>
+<generatorID>1DED0AFE-57FF-0EE3-894D-D64C85B7E631</generatorID>
+<ownerDesignName>last</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1003BD80-AEAA-23D4-30FF-BBF8A266C92F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

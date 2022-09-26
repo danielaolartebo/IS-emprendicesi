@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AD17787-6D97-78B3-D8DE-D57412E73E9B" name="Orden">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:04:05 UTC</createdTime>
+<generatorID>6BBFF469-257A-9395-A61A-B4A83B2FB108</generatorID>
+<ownerDesignName>last</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_orden" id="A53E1475-220D-4052-4505-34C7C0020A88">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:04:05 UTC</createdTime>
+<generatorID>71807031-CF49-37F2-130B-5B99E05FBE17</generatorID>
+<ownerDesignName>last</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_orden" id="94483A60-E558-F162-CCA3-EFF2DA759FD5">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:04:05 UTC</createdTime>
+<generatorID>93C71299-D022-F70F-0A52-524CF0A16FBB</generatorID>
+<ownerDesignName>last</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="otros_detalles" id="2D3BDB97-E98C-78D8-135C-977F8A50D2E3">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:04:05 UTC</createdTime>
+<generatorID>BE62C291-6185-8D23-F064-142B5E326D47</generatorID>
+<ownerDesignName>last</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_id_cliente" id="A84EC073-1390-9694-46FC-C97C34FD0DF2">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:04:05 UTC</createdTime>
+<generatorID>FF5322B0-A2D5-0284-774F-DEA71A512E46</generatorID>
+<ownerDesignName>last</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E99712CF-EE28-F910-1567-76DC3657F186" referredColumn="C746B934-979C-2AD1-5C76-8D48990A8543"/>
+</associations>
+</Column>
+<Column name="Producto_Producto_ID" id="43E3CCF2-8AB9-42DC-3FFE-AAC20EBEFCEB">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:04:05 UTC</createdTime>
+<ownerDesignName>last</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="602C63C3-EF6F-B3AC-2810-B358ACE57668" referredColumn="A325570F-4AAB-F5CF-E235-07FC4A828225"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09ADF5AC-2FDD-9EEB-AB4A-5D181510800E" name="Orden_PK">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:04:05 UTC</createdTime>
+<generatorID>ABB3B59C-B282-F09D-DB79-A97D193F16AC</generatorID>
+<ownerDesignName>last</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A53E1475-220D-4052-4505-34C7C0020A88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB47D76C-6348-466B-34C9-3E73927151B6" name="Orden_Cliente_FK">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:04:05 UTC</createdTime>
+<generatorID>CF8337A0-9B94-56D7-0E00-EB0B9DD913FC</generatorID>
+<ownerDesignName>last</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A84EC073-1390-9694-46FC-C97C34FD0DF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA57A085-8BB8-E37A-6A28-D46B6D92B42E" name="Orden_Producto_FK">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:04:05 UTC</createdTime>
+<generatorID>CC5ABBC8-F92C-04D7-AB54-2DF485FE60E0</generatorID>
+<ownerDesignName>last</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43E3CCF2-8AB9-42DC-3FFE-AAC20EBEFCEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

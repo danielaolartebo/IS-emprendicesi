@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C34286B0-FE14-4F16-2E2D-01AD9DDE32E1" name="Cliente">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 21:57:23 UTC</createdTime>
+<ownerDesignName>last</ownerDesignName>
+<engineerTo>
+<item key="F4907810-3F7E-4CF7-87C6-5640137D5860" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="01517AA1-1D67-C3ED-F1A8-93F540C57088">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 21:57:38 UTC</createdTime>
+<ownerDesignName>last</ownerDesignName>
+<engineerTo>
+<item key="F4907810-3F7E-4CF7-87C6-5640137D5860" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cedula" id="367BE732-28B1-95B6-4BA3-452C305EB2D2">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 21:57:53 UTC</createdTime>
+<ownerDesignName>last</ownerDesignName>
+<engineerTo>
+<item key="F4907810-3F7E-4CF7-87C6-5640137D5860" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="7149D915-BFA3-2708-10D9-9AC43ACCA3F3">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 21:58:05 UTC</createdTime>
+<ownerDesignName>last</ownerDesignName>
+<engineerTo>
+<item key="F4907810-3F7E-4CF7-87C6-5640137D5860" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="8EA218BA-9DC2-8B38-F9BA-35CBA22A6DDE">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 21:58:14 UTC</createdTime>
+<ownerDesignName>last</ownerDesignName>
+<engineerTo>
+<item key="F4907810-3F7E-4CF7-87C6-5640137D5860" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC9BFE9E-22EE-7183-023E-2916F09183DF" name="Clientes PK">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 21:57:49 UTC</createdTime>
+<ownerDesignName>last</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F4907810-3F7E-4CF7-87C6-5640137D5860" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>01517AA1-1D67-C3ED-F1A8-93F540C57088</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

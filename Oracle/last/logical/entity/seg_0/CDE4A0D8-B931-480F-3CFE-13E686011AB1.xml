@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDE4A0D8-B931-480F-3CFE-13E686011AB1" name="Producto">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 21:47:44 UTC</createdTime>
+<ownerDesignName>last</ownerDesignName>
+<engineerTo>
+<item key="F4907810-3F7E-4CF7-87C6-5640137D5860" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_producto" id="F8E24EFB-EFF9-2A5A-1814-8E955DE770E7">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 21:48:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del producto]]></commentInRDBMS>
+<ownerDesignName>last</ownerDesignName>
+<engineerTo>
+<item key="F4907810-3F7E-4CF7-87C6-5640137D5860" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="35E1B004-47A2-8663-C68F-B20FD25A20FD">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 21:51:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del producto]]></commentInRDBMS>
+<ownerDesignName>last</ownerDesignName>
+<engineerTo>
+<item key="F4907810-3F7E-4CF7-87C6-5640137D5860" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="ABD13557-7F50-AEC4-708A-F163E03F0E75">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 21:51:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descripcion del producto]]></commentInRDBMS>
+<ownerDesignName>last</ownerDesignName>
+<engineerTo>
+<item key="F4907810-3F7E-4CF7-87C6-5640137D5860" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="AD399B0C-3ED3-CB2F-66D4-194E2FD95829">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 21:52:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Precio del producto]]></commentInRDBMS>
+<ownerDesignName>last</ownerDesignName>
+<engineerTo>
+<item key="F4907810-3F7E-4CF7-87C6-5640137D5860" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_producto" id="E7A8E8E9-136F-A7FD-7D1E-8F564F1F372F">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:00:29 UTC</createdTime>
+<generatorID>E9452969-D1A7-D871-FC60-DB351EACCEEA</generatorID>
+<ownerDesignName>last</ownerDesignName>
+<engineerTo>
+<item key="F4907810-3F7E-4CF7-87C6-5640137D5860" value="true"/>
+</engineerTo>
+<referedAttribute>E3DC3D87-03BE-B3C2-CB6A-D82D25F4C4D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

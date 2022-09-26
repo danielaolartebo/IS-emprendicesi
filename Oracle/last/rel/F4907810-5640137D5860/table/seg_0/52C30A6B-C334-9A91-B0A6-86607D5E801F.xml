@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52C30A6B-C334-9A91-B0A6-86607D5E801F" name="Cliente">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:04:05 UTC</createdTime>
+<generatorID>C34286B0-FE14-4F16-2E2D-01AD9DDE32E1</generatorID>
+<ownerDesignName>last</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="C746B934-979C-2AD1-5C76-8D48990A8543">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:04:05 UTC</createdTime>
+<generatorID>01517AA1-1D67-C3ED-F1A8-93F540C57088</generatorID>
+<ownerDesignName>last</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cedula" id="6EE0E82A-0634-7171-D607-12260F3D9DA8">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:04:05 UTC</createdTime>
+<generatorID>367BE732-28B1-95B6-4BA3-452C305EB2D2</generatorID>
+<ownerDesignName>last</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="D46CF31D-D0B4-2938-9C0A-3FEF427D6673">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:04:05 UTC</createdTime>
+<generatorID>7149D915-BFA3-2708-10D9-9AC43ACCA3F3</generatorID>
+<ownerDesignName>last</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="EE30EF1D-63EA-2E53-F1AF-77DDB8D489FE">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:04:05 UTC</createdTime>
+<generatorID>8EA218BA-9DC2-8B38-F9BA-35CBA22A6DDE</generatorID>
+<ownerDesignName>last</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7049305F-30B8-ABC2-DBD2-46167C5A9B25" name="Cliente_PK">
+<createdBy>danielaolarte</createdBy>
+<createdTime>2022-09-26 22:04:05 UTC</createdTime>
+<generatorID>BC9BFE9E-22EE-7183-023E-2916F09183DF</generatorID>
+<ownerDesignName>last</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C746B934-979C-2AD1-5C76-8D48990A8543"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
