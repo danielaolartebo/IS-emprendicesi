@@ -51,6 +51,7 @@
   <a href="https://github.com/BrayanOB2003" target="_blank"> <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/65927857?v=4&h=60&w=60&fit=cover&mask=circle"></a>
   <a href="https://github.com/Rockthor1106" target="_blank"> <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/71186075?v=4&h=60&w=60&fit=cover&mask=circle"></a>
   <a href="https://github.com/santiagoarevalo" target="_blank"> <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/71450411?v=4&h=60&w=60&fit=cover&mask=circle"></a>
+    <a href="https://github.com/ArturoDiaz02" target="_blank"> <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/70271822?v=4&h=60&w=60&fit=cover&mask=circle"></a>
 </p>
 
 
