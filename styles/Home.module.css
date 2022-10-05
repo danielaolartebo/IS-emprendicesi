@@ -115,15 +115,37 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #d6d6d6;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.navbarbut button{
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.centerdiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.horizontalflexdiv{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.buttondiv{
+  margin-top: 50px;
 }
