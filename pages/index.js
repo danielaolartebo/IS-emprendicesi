@@ -5,9 +5,9 @@ import Link from 'next/link'
  
 export default function Home() {
   return (
-  <div className={styles.contenedor}>
+  <div className={styles.container}>
       <img className={styles.back_image} src = "/images/BK-ROSETAS_FDCS.png"/>
-      <div className={styles.divxd}>
+      <div className={styles.div_design}>
         <Welcome title='EMPRENDICESI'></Welcome>
         <main className={styles.main}>
           <h1 className={styles.title}>

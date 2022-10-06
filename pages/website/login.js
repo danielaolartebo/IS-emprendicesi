@@ -4,7 +4,7 @@ import Login from '/components/Login'
 import Link from 'next/link'
 
 let data = {
-    email: '',
+    usuario: '',
     password: '',
 }
 
@@ -36,8 +36,8 @@ let login = () =>{
     let handleChange = (event) => {
         console.log(event.target.name);
         switch (event.target.name) {
-            case 'email':
-                data.email = event.target.value;
+            case 'usuario':
+                data.usuario = event.target.value;
                 break;
             case 'password':
                 data.password = event.target.value;
@@ -48,29 +48,34 @@ let login = () =>{
     }
     return(
         <div>
-            <Welcome title='Login'></Welcome>
-            <main className={styles.main}>
-                <form className='form' onSubmit={handleSubmit}>
-                    <legend className={styles.title}>Login</legend>
-                    <div class='mb-3'>
-                        <div class='mb-3'>
-                            <label for='email' class='form-label'>Correo electronico</label>
-                            <input type="email" class='form-control' id='email' name='email' onChange={handleChange} />
-                        </div>
-                        <div class='mb-3'>
-                            <label for='password' class='form-label'>Contraseña</label>
-                            <input type="password" class='form-control' id='password' name='password' onChange={handleChange} /> 
-                        </div>
-                        <div class='container'>
-                            <div class='row'>
-                                <div class='col text-center'>
-                                    <input type="submit" class='styles.card' value="Log in" />
-                                </div> 
-                            </div>
+          <div className={styles.container}>
+          <img className={styles.back_image} src = "/images/BK-ROSETAS_FDCS.png"/>
+            <div className={styles.div_design}>
+              <Welcome title='Login'></Welcome>
+              <main className={styles.main}>
+                  <form className='form' onSubmit={handleSubmit}>
+                      <legend className={styles.title}>EMPRENDICESI</legend>
+                      <div class='mb-3'>
+                          <div class='mb-3'>
+                              <label for='usuario' class='form-label'>Usuario</label>
+                              <input type="usuario" class='form-control' id='usuario' name='usuario' onChange={handleChange} />
+                          </div>
+                          <div class='mb-3'>
+                              <label for='password' class='form-label'>Contraseña</label>
+                              <input type="password" class='form-control' id='password' name='password' onChange={handleChange} /> 
+                          </div>
+                          <div class='container'>
+                              <div class='row'>
+                                  <div class='col text-center'>
+                                      <input type="submit" class='styles.card' value="Iniciar Sesión" />
+                                  </div> 
+                              </div>
                         </div>
                     </div>
                 </form>
-            </main>
+              </main>
+            </div>
+          </div>
         </div>
     )
 }
