@@ -91,9 +91,6 @@
   margin: 0;
   background-color: #fff;
   padding: 0.0rem 2.0rem;
-  color: var(--color-secondary-900);
-  font-family: inherit;
-  font-size: 1.0rem;
   font-weight: 300;
   line-height: normal;
   text-align: center;
@@ -106,6 +103,16 @@
   border-radius: 15px;
   object-fit: cover;
   margin-right: -1250px;
+}
+
+.menu{
+  height: 35px;
+  width: 162px;
+  margin: 0;
+  padding: 0.0rem 2.0rem;
+  background-size: contain;
+  position: absolute;
+  margin-left: -1300px;
 }
 
 .main {
@@ -303,7 +310,11 @@
   box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
   cursor: pointer;
   transition: background 250ms, box-shadow 250ms;
+}
 
+.title_emprendimiento{
+  font-style: bold;
+  font-size: 30px;
 }
 
 

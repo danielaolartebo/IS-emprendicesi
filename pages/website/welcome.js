@@ -20,6 +20,11 @@ export default function Home() {
              </h1>
            </main>
          </div>
+         <div className={styles.menu}>
+            <Link href='/website/proyectos'>
+                   <button class={styles.btn_welcome}>Proyectos</button>
+            </Link>
+        </div>
        </div>
     )   
 }
