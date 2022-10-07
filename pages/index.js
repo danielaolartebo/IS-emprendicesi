@@ -68,7 +68,9 @@ let handleChange = (event) => {
                                 <div className='container'>
                                     <div className='row'>
                                         <div className='col text-center'>
-                                            <input type="submit" className={styles.btn} placeholder="Iniciar Sesión" />
+                                        <Link href='/website/welcome'>
+                                            <button type="submit" className={styles.btn_login} placeholder="Iniciar Sesión" >Iniciar sesión</button>
+                                        </Link>
                                         </div> 
                                     </div>
                                 </div>

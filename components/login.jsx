@@ -1,6 +1,3 @@
-
-<<<<<<< Updated upstream
-=======
 export default class Login extends Component {
     
     render(){
@@ -8,9 +5,9 @@ export default class Login extends Component {
 
         return(
            
-           
+            <div> className="container"</div>
             
         )
     }
 }
->>>>>>> Stashed changes
+
