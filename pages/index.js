@@ -5,25 +5,19 @@ import Link from 'next/link'
  
 export default function Home() {
   return (
-  <div className={styles.container}>
-      <img className={styles.back_image} src = "/images/BK-ROSETAS_FDCS.png"/>
-      <div className={styles.div_design}>
-        <Welcome title='EMPRENDICESI'></Welcome>
-        <main className={styles.main}>
-          <h1 className={styles.title}>
-            EMPRENDICESI
-          </h1>
-          <div className={styles.grid}>
-            <Link href='../website/login'>
-              <a className={styles.card}>
-                <h2>Log in</h2>
-              </a>
-            </Link>
-          </div>
-        </main>
+    <div className={styles.container}>
+        <img className={styles.back_image} src = "/images/BK-ROSETAS_FDCS.png"/ >
+              <Link href='../website/login'>
+                  <button class={styles.btn}>Cerrar Sesión</button>
+              </Link>
+        <div className={styles.div_design_index}>
+          <Welcome title='EMPRENDICESI'></Welcome>
+          <main className={styles.main}>
+            <h1 className={styles.title}>
+              EMPRENDICESI
+            </h1>
+          </main>
+        </div>
       </div>
-    
-    </div>
   )
-  
 }

@@ -50,8 +50,10 @@ let login = () =>{
         <div>
           <div className={styles.container}>
           <img className={styles.back_image} src = "/images/BK-ROSETAS_FDCS.png"/>
-            <div className={styles.div_design}>
-              <Welcome title='Login'></Welcome>
+            <div className={styles.div_design_login}>
+            <Link href='../index'>
+                <Welcome title='Login'></Welcome>
+            </Link>
               <main className={styles.main}>
                   <form className='form' onSubmit={handleSubmit}>
                       <legend className={styles.title}>EMPRENDICESI</legend>

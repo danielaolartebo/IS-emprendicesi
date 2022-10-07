@@ -2,10 +2,14 @@
   position: static;
   width: 100%;
   height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
   
 }
 
-.div_design{
+.div_design_index{
   position: absolute;
   background-color: white;
   display: flex;
@@ -13,13 +17,53 @@
   align-items: center;
   width: 62%;
   margin-top: 19.8%;
-  height: 50%;
+  height:30%;
+  
+}
+
+.div_design_login{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62%;
+  margin-top: 19.8%;
+  height:50%;
+  
+  
+}
+
+.login_container{
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  
+
+}
+
+.btn{
+  background-color: white;
+  height: 35px;
+  width: 120px;
+  background-size: cover;
+  margin-top: 15px;
+  position: absolute;
+  justify-content: right;
+  margin-left: 90%;
+  border-radius: 15px;
+  
 }
 
 .container{
   background-color: white;
   display: flex;
-  justify-content: center;;
+  justify-content: center;
+  background-size: contain;
   margin: 0px auto;
   width: 100%;
   height: 100%;
@@ -119,6 +163,7 @@
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+
 }
 
 .card p {
