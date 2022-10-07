@@ -5,9 +5,12 @@ import Link from 'next/link'
 export default function Home() {
     return (
         <div className={styles.container}>
-         <img className={styles.back_image} src = "/images/BK-ROSETAS_FDCS.png"/ >
+            <img className={styles.back_image} src = "/images/BK-ROSETAS_FDCS.png"/ >
                <Link href='/'>
                    <button class={styles.btn_welcome}>Cerrar Sesión</button>
+               </Link>
+                <Link href='/website/formulario'>
+                   <button class={styles.btn_inscription}>Inscribir Emprendimiento</button>
                </Link>
          <div className={styles.div_design_index}>
            <Welcome title='EMPRENDICESI'></Welcome>

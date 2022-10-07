@@ -7,9 +7,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   display: flex;
-
 	box-shadow: 0px 0px 3px 1px rgba(90,90,90,1);
-
 }
 
 .div_design_index{
@@ -55,7 +53,7 @@
   height: 35px;
   width: 162px;
   position: relative;
-  display: inline-block;
+  display: relative;
   margin: 0;
   background-color: #fff;
   padding: 0.2rem 2.0rem;
@@ -68,11 +66,9 @@
   border: 0;
   border-radius: 0.4rem;
   box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
-  background-size: contain;
   margin-top: 15px;
   position: absolute;
-  justify-content: right;
-  margin-left: 85%;
+  margin-right: -1250px;
   border-radius: 15px;
   
 }
@@ -85,9 +81,32 @@
   width: 100%;
   height: 100%;
   background-size: cover;
+  max-width: 100%;
   
 }
 
+.btn_inscription{
+  height: 35px;
+  width: 162px;
+  margin: 0;
+  background-color: #fff;
+  padding: 0.0rem 2.0rem;
+  color: var(--color-secondary-900);
+  font-family: inherit;
+  font-size: 1.0rem;
+  font-weight: 300;
+  line-height: normal;
+  text-align: center;
+  border: 0;
+  border-radius: 0.4rem;
+  box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
+  background-size: contain;
+  position: absolute;
+  margin-top: 60px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-right: -1250px;
+}
 
 .main {
   min-height: 100vh;
@@ -199,11 +218,19 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 10%) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
+  .btn_inscription{
+    margin-right: -1250px;
+  }
+
+  .btn_welcome{
+    margin-right: -1250px;
+  }
+
 }
 
 .navbar {
@@ -258,9 +285,6 @@
 	-webkit-box-shadow: 0px 0px 9px 2px rgba(90,90,90,1);
 	-moz-box-shadow: 0px 0px 9px 2px rgba(90,90,90,1);
 	box-shadow: 0px 0px 9px 2px rgba(90,90,90,1);
-
-	/*clear: left;
-	margin: auto !important;*/
 }
 
 .btn_login {
