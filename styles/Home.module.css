@@ -514,6 +514,188 @@
   background-color: #fff;
 }
 
+.logo_emprendimiento{
+  width: 130px;
+  height: 130px;
+  margin-left: -400px;
+  margin-top: -540px;
+}
+
+.title_emprendimiento1{
+  margin: 0;
+  line-height: 2.0;
+  font-size: 55px;
+  margin-left: 2%;
+  margin-top: -310px;
+}
+
+.description_emprendimeinto1{
+  font-style: italic;
+  font-size: 20px;
+  margin-top: -200px;
+}
+
+.content_login_emprendedor{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  margin-top: 12%;
+  height: 80%;
+	text-align: center;
+	padding: 25px;
+	border-radius: 8px;
+
+	-webkit-box-shadow: 0px 0px 9px 2px rgba(90,90,90,1);
+	-moz-box-shadow: 0px 0px 9px 2px rgba(90,90,90,1);
+	box-shadow: 0px 0px 9px 2px rgba(90,90,90,1);
+}
+
+.content_sub_emprendedor{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  width: 75%;
+  margin-top: 3%;
+  height: 63%;
+	text-align: center;
+	padding: 25px;
+	border-radius: 8px;
+
+	-webkit-box-shadow: 0px 0px 9px 2px rgba(90,90,90,1);
+	-moz-box-shadow: 0px 0px 9px 2px rgba(90,90,90,1);
+	box-shadow: 0px 0px 9px 2px rgba(90,90,90,1);
+}
+
+.regularFont_horarios{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  align-items: left;
+  margin-left: -100px;
+}
+
+.regularFont_productos{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  align-items: left;
+  margin-left: -220px;
+  margin-top: 85px;
+}
+
+.descrip_horario{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 33px;
+  color: burlywood;
+  -webkit-text-stroke: 0.1px black;
+  align-items: left;
+}
+
+.descrip_productos{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 33px;
+  color: burlywood;
+  -webkit-text-stroke: 0.1px black;
+  align-items: left;
+  padding-top: 90px;
+  margin-left: -465px;
+}
+
+.descrip_contacto{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 33px;
+  color: burlywood;
+  -webkit-text-stroke: 0.1px black;
+  align-items: left;
+  padding-top: 170px;
+  margin-left: -168px;
+}
+
+.descrip_calificacion{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 33px;
+  color: burlywood;
+  -webkit-text-stroke: 0.1px black;
+  align-items: left;
+  padding-top: 285px;
+  margin-left: -105px;
+}
+
+.btn_whatsapp{
+  height: 40px;
+  width: 150px;
+  margin: 0;
+  background-color: rgb(235, 165, 91);
+  padding: 0.0rem 2.0rem;
+  line-height: 1.0;
+  text-align: center;
+  border: 0;
+  border-radius: 0.4rem;
+  box-shadow: -1px 1px 8px rgba(1, 1, 1, 1);
+  background-size: contain;
+  position: absolute;
+  margin-top: 220px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-left: -0px;
+}
+
+.rating {
+  margin-bottom: 100px;
+  width:600px;
+  margin-top: 100%;
+}
+.rating span { float:right; position:relative; }
+.rating span input {
+  position:absolute;
+  top:1000px;
+  left:1000px;
+  opacity:0;
+}
+.rating span label {
+  display: flex;
+  width:30px;
+  height:30px;
+  text-align:center;
+  color:#FFF;
+  background:#ccc;
+  font-size:30px;
+  margin-right:2px;
+  line-height:30px;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  
+}
+.rating span:hover ~ span label,
+.rating span:hover label,
+.rating span.checked label,
+.rating span.checked ~ span label {
+  background:#F90;
+  color:rgb(169, 34, 34);
+}
+
+.foto_emprendimiento{
+  width: 250px;
+  height: 300px;
+  margin-left: 400px;
+}
+
+.stars_container{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  margin-top: 35%;
+  height: 10%;
+	text-align: center;
+	padding: 25px;
+	border-radius: 8px;
+}
 
 
 

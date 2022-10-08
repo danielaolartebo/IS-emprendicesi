@@ -56,9 +56,7 @@ let handleChange = (event) => {
                             <legend className={styles.title}>EMPRENDICESI</legend>
                             <div >
                                 <div>
-
                                     <input type="usuario" className='form-control' id='usuario'  onChange={handleChange} placeholder='Usuario' />
-                            
                                 </div>
                                 <br/>
                                 <div>

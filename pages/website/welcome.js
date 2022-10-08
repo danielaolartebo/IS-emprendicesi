@@ -53,7 +53,7 @@ export default function Home() {
                 <h1 className={styles.description_entrepreneur2}>
                     Galletas hechas en casa con mucho amor. Cómplices en tu dulce crimen. Seguro que no te arrepentiras ¡Escribenos por medio de WhatsApp!
                 </h1>
-                <Link href='/website/emprendimiento'>
+                <Link href=''>
                    <button class={styles.btn_entrepreneur}>Ver</button>
                 </Link>
             </div>
@@ -65,7 +65,7 @@ export default function Home() {
                 <h1 className={styles.description_entrepreneur1}>
                     Sal de la rutina con LeePops. Disfruta de nuestra varidad de sabores y colores en unas ricas crispetas. ¡Contactanos para pedir las tuyas!
                 </h1>
-                <Link href='/website/emprendimiento'>
+                <Link href=''>
                    <button class={styles.btn_entrepreneur}>Ver</button>
                 </Link>
             </div>
@@ -77,7 +77,7 @@ export default function Home() {
                 <h1 className={styles.description_entrepreneur4}>
                     Bites de brownie de milo ricos para toda ocasión, perfectos para cualquier antojo y la mejor elección para un regalo. ¡Encuentranos en el campus!
                 </h1>
-                <Link href='/website/emprendimiento'>
+                <Link href=''>
                    <button class={styles.btn_entrepreneur}>Ver</button>
                 </Link>
             </div>
