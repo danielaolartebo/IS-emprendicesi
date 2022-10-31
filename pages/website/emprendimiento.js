@@ -7,8 +7,6 @@ let data = {
     password: '',
 }
 
-let type = '';
-
 let login = () =>{
   async function handleSubmit(event) {
     event.preventDefault();
