@@ -27,7 +27,7 @@ export default function Home() {
     return (
         <div className={styles.container}>
             <img className={styles.back_image} src="/images/BK-ROSETAS_FDCS.png"/ >
-                <button className={styles.btn_welcome} onClick={signOut}>Cerrar Sesión</button>
+                <button className={styles.btn_welcome} onClick={signOut}>Cerrar SesiÃ³n</button>
 
                 <Link href='/website/formulario'>
                     <button className={styles.btn_inscription}>Inscribir Emprendimiento</button>
@@ -39,7 +39,7 @@ export default function Home() {
                             EMPRENDICESI
                         </h1>
                         <h1 className={styles.descrip}>
-                            ¡Para todos aquellos que buscan emprender!
+                            Â¡Para todos aquellos que buscan emprender!
                         </h1>
                         <br/>
                         <br/>
@@ -54,53 +54,77 @@ export default function Home() {
                 </div>
                 <div className={styles.entrepreneur_container}>
                     <div className={styles.entrepreneur_sub_container1}>
-                        <img className={styles.entrepreneur_image1} src="/images/cubanitos.png"/>
-                        <h1 className={styles.title_entrepreneur1}>
-                            Cubanitos
-                        </h1>
-                        <h1 className={styles.description_entrepreneur1}>
-                            La manera más divertida y económica de comer en la U. Prueba uno de nuestros sándwich ¡No
-                            pararás de pedirlos!
-                        </h1>
+                        <div className={styles.content_welcome_image}>
+                            <img className={styles.entrepreneur_image1} src="/images/cubanitos.png"/>
+                        </div>
+                        <div className={styles.content_welcome_title}>
+                            <h1 className={styles.title_entrepreneur1}>
+                                Cubanitos
+                            </h1>
+                        </div>
+                        <div className={styles.content_welcome_description}>
+                            <h1 className={styles.description_entrepreneur1}>
+                                La manera mÃ¡s divertida y econÃ³mica de comer en la U. Prueba uno de nuestros sÃ¡ndwich Â¡No
+                                pararÃ¡s de pedirlos!
+                            </h1>
+                        </div>
                         <Link href='/website/emprendimiento'>
                             <button className={styles.btn_entrepreneur}>Ver</button>
                         </Link>
                     </div>
                     <div className={styles.entrepreneur_sub_container2}>
-                        <img className={styles.entrepreneur_image2} src="/images/sweetestCrime.png"/>
-                        <h1 className={styles.title_entrepreneur2}>
-                            The Sweetest Crime
-                        </h1>
-                        <h1 className={styles.description_entrepreneur2}>
-                            Galletas hechas en casa con mucho amor. Cómplices en tu dulce crimen. Seguro que no te
-                            arrepentiras ¡Escribenos por medio de WhatsApp!
-                        </h1>
+                        <div className={styles.content_welcome_image}>
+                            <img className={styles.entrepreneur_image2} src="/images/sweetestCrime.png"/>
+                        </div>
+                        <div className={styles.content_welcome_title}>
+                            <h1 className={styles.title_entrepreneur1}>
+                                The Sweetest Crime
+                            </h1>
+                        </div>
+                        <div className={styles.content_welcome_description}>
+                            <h1 className={styles.description_entrepreneur1}>
+                                Galletas hechas en casa con mucho amor. CÃ³mplices en tu dulce crimen. Seguro que no te
+                                arrepentiras Â¡Escribenos por medio de WhatsApp!
+                            </h1>
+                        </div>
                         <Link href=''>
                             <button className={styles.btn_entrepreneur}>Ver</button>
                         </Link>
                     </div>
                     <div className={styles.entrepreneur_sub_container3}>
-                        <img className={styles.entrepreneur_image1} src="/images/leePops.png"/>
-                        <h1 className={styles.title_entrepreneur1}>
-                            LeePops
-                        </h1>
-                        <h1 className={styles.description_entrepreneur1}>
-                            Sal de la rutina con LeePops. Disfruta de nuestra varidad de sabores y colores en unas ricas
-                            crispetas. ¡Contactanos para pedir las tuyas!
-                        </h1>
+                        <div className={styles.content_welcome_image}>
+                            <img className={styles.entrepreneur_image1} src="/images/leePops.png"/>
+                        </div>
+                        <div className={styles.content_welcome_title}>
+                            <h1 className={styles.title_entrepreneur1}>
+                                LeePops
+                            </h1>
+                        </div>
+                        <div className={styles.content_welcome_description}>
+                            <h1 className={styles.description_entrepreneur1}>
+                                Sal de la rutina con LeePops. Disfruta de nuestra varidad de sabores y colores en unas ricas
+                                crispetas. Â¡Contactanos para pedir las tuyas!
+                            </h1>
+                        </div>
                         <Link href=''>
                             <button className={styles.btn_entrepreneur}>Ver</button>
                         </Link>
                     </div>
                     <div className={styles.entrepreneur_sub_container4}>
-                        <img className={styles.entrepreneur_image1} src="/images/milaBites.png"/>
-                        <h1 className={styles.title_entrepreneur4}>
-                            Mila Bites
-                        </h1>
-                        <h1 className={styles.description_entrepreneur4}>
-                            Bites de brownie de milo ricos para toda ocasión, perfectos para cualquier antojo y la mejor
-                            elección para un regalo. ¡Encuentranos en el campus!
-                        </h1>
+                        <div className={styles.content_welcome_image}>
+                            <img className={styles.entrepreneur_image1} src="/images/milaBites.png"/>
+                        </div>
+                        <div className={styles.content_welcome_title}>
+                            <h1 className={styles.title_entrepreneur1}>
+                                Mila Bites
+                            </h1>
+                        </div>
+                        <div className={styles.content_welcome_description}>
+                            <h1 className={styles.description_entrepreneur1}>
+                                Bites de brownie de milo ricos para toda ocasiÃ³n, perfectos para cualquier antojo y la mejor
+                                elecciÃ³n para un regalo. Â¡Encuentranos en el campus!
+                            </h1>
+                        </div>
                         <Link href=''>
                             <button className={styles.btn_entrepreneur}>Ver</button>
                         </Link>

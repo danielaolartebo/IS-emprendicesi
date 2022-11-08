@@ -73,44 +73,56 @@ let handleChange = (event) => {
                             <img className={styles.logo_emprendimiento} src = "/images/cubanitos.png"/>
                             <div >
                                 <h1 className={styles.description_emprendimeinto1}>
-                                    La manera más divertida y económica de comer en la U. Prueba uno de nuestros sándwich ¡No pararás de pedirlos!
+                                    La manera mÃ¡s divertida y econÃ³mica de comer en la U. Prueba uno de nuestros sÃ¡ndwich Â¡No pararÃ¡s de pedirlos!
                                 </h1>
-                                <div className={styles.content_sub_emprendedor}>
-                                    <h1 className={styles.descrip_horario}>
-                                        Horarios
-                                    </h1>
-                                    <div className={styles.regularFont_horarios}>
-                                    <br/> <br/><br/>
-                                        Nuestros distribuidores están en la U de lunes a viernes en horarios de mañana y tarde
-                                    </div>  
-                                    <h1 className={styles.descrip_productos}>
-                                        Productos y precios
-                                    </h1> 
-                                    <div className={styles.regularFont_productos}>
-                                    <br/> <br/><br/>
-                                        Sandwich Qbano - $3.000COP
-                                    </div> 
-                                    <h1 className={styles.descrip_contacto}>
-                                        Contacto
-                                    </h1> 
-                                    <h1 className={styles.descrip_calificacion}>
-                                        Calificación
-                                    </h1> 
-                                    <img className={styles.foto_emprendimiento} src = "/images/cubanitos_2.png"/>
-                                    <div className={styles.stars_container}>
-                                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-                                                <div class="rating">
-                                                    <span><input type="radio" name="rating" id="str5" value="5"/><label for="str5"></label></span>
-                                                    <span><input type="radio" name="rating" id="str4" value="4"/><label for="str4"></label></span>
-                                                    <span><input type="radio" name="rating" id="str3" value="3"/><label for="str3"></label></span>
-                                                    <span><input type="radio" name="rating" id="str2" value="2"/><label for="str2"></label></span>
-                                                    <span><input type="radio" name="rating" id="str1" value="1"/><label for="str1"></label></span>
-                                                </div>
+                                     <div className={styles.content_sub_emprendedor}>
+                                        <div className={styles.content_sub_sub}>
+                                            <h1 className={styles.descrip_horario}>
+                                                Horarios
+                                            </h1>
+                                            <div className={styles.regularFont_horarios}>
+                                            <br/> <br/><br/>
+                                                Nuestros distribuidores estÃ¡n en la U de lunes a viernes en horarios de maÃ±ana y tarde
+                                            </div>  
+                                        </div>
+                                        <div className={styles.content_sub_sub2}>
+                                            <h1 className={styles.descrip_productos}>
+                                                Redes Sociales
+                                            </h1> 
+                                            <div className={styles.regularFont_productos}>
+                                            <br/> <br/><br/>
+                                                <Link href=''>
+                                                    <button class={styles.btn_instagram}>Ir</button>
+                                                </Link>
+                                            </div> 
+                                        </div>
+                                        <div className={styles.content_sub_sub3}>
+                                            <h1 className={styles.descrip_contacto}>
+                                                Contacto
+                                            </h1> 
+                                            <Link href=''>
+                                                <button class={styles.btn_whatsapp}>WhatsApp</button>
+                                            </Link>
+                                        </div>
+                                        <div className={styles.content_sub_sub4}>
+                                            <h1 className={styles.descrip_calificacion}>
+                                                CalificaciÃ³n
+                                            </h1> 
+                                            <div className={styles.stars_container}>
+                                                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                                                        <div class="rating">
+                                                            <span><input type="radio" name="rating" id="str5" value="5"/><label for="str5"></label></span>
+                                                            <span><input type="radio" name="rating" id="str4" value="4"/><label for="str4"></label></span>
+                                                            <span><input type="radio" name="rating" id="str3" value="3"/><label for="str3"></label></span>
+                                                            <span><input type="radio" name="rating" id="str2" value="2"/><label for="str2"></label></span>
+                                                            <span><input type="radio" name="rating" id="str1" value="1"/><label for="str1"></label></span>
+                                                        </div>
+                                            </div>
+                                        </div>
+                                        <div className={styles.content_image}>
+                                            <img className={styles.foto_emprendimiento} src = "/images/cubanitos_2.png"/>
+                                        </div>
                                     </div>
-                                    <Link href=''>
-                                        <button class={styles.btn_whatsapp}>Contactar</button>
-                                    </Link>
-                                </div>
                             </div>
                         </form>
                     </main>
@@ -122,4 +134,3 @@ let handleChange = (event) => {
 
 export default login
   
-

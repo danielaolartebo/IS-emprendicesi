@@ -26,31 +26,43 @@ export default function Home() {
          </div>
         <div className={styles.entrepreneur_container}>
             <div className={styles.entrepreneur_sub_container1}>
-                <img className={styles.entrepreneur_image1} src = "/images/cubanitos.png"/>
-                <h1 className={styles.title_entrepreneur1}>
-                    Cubanitos
-                </h1>
-                <h1 className={styles.description_entrepreneur1}>
-                    La manera más divertida y económica de comer en la U. Prueba uno de nuestros sándwich ¡No pararás de pedirlos!
-                </h1>
+                <div className={styles.entrepreneur_sub_container35}>
+                    <img className={styles.entrepreneur_image1} src = "/images/cubanitos.png"/>
+                </div>
+                <div className={styles.entrepreneur_sub_container30}>
+                    <h1 className={styles.title_entrepreneur1}>
+                        Cubanitos
+                    </h1>
+                </div>
+                <div className={styles.entrepreneur_sub_container31}>
+                    <h1 className={styles.description_entrepreneur1}>
+                        La manera mÃ¡s divertida y econÃ³mica de comer en la U. Prueba uno de nuestros sÃ¡ndwich Â¡No pararÃ¡s de pedirlos!
+                    </h1>
+                </div>
                 <Link href='/website/emprendimiento'>
                    <button class={styles.btn_entrepreneur}>Editar</button>
                 </Link>
             </div>
             <div className={styles.entrepreneur_sub_container2}>
-                <Link href=''>
-                   <button class={styles.btn_create_entrepreneur}>Crear</button>
-                </Link>
+                <div className={styles.entrepreneur_create}>
+                    <Link href=''>
+                        <button class={styles.btn_create_entrepreneur}>Crear</button>
+                    </Link>
+                </div>
             </div>
-            <div className={styles.entrepreneur_sub_container3}>
-            <Link href=''>
-                   <button class={styles.btn_create_entrepreneur}>Crear</button>
-                </Link>
+            <div className={styles.entrepreneur_sub_container34}>
+                <div className={styles.entrepreneur_create}>
+                    <Link href=''>
+                        <button class={styles.btn_create_entrepreneur}>Crear</button>
+                    </Link>
+                </div>
             </div>
             <div className={styles.entrepreneur_sub_container4}>
-            <Link href=''>
-                   <button class={styles.btn_create_entrepreneur}>Crear</button>
-                </Link>
+                <div className={styles.entrepreneur_create}>
+                    <Link href=''>
+                        <button class={styles.btn_create_entrepreneur}>Crear</button>
+                    </Link>
+                </div>
             </div>
             <Link href=''>
                    <button class={styles.btn_load}>CARGAR MAS</button>
