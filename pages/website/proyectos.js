@@ -36,7 +36,7 @@ export default function Home() {
                 </div>
                 <div className={styles.entrepreneur_sub_container31}>
                     <h1 className={styles.description_entrepreneur1}>
-                        La manera mÃ¡s divertida y econÃ³mica de comer en la U. Prueba uno de nuestros sÃ¡ndwich Â¡No pararÃ¡s de pedirlos!
+                        La manera más divertida y económica de comer en la U. Prueba uno de nuestros sándwich ¡No pararás de pedirlos!
                     </h1>
                 </div>
                 <Link href='/website/emprendimiento'>

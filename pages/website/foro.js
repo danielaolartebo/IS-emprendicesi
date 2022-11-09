@@ -62,7 +62,7 @@ let handleChange = (event) => {
         <div>
             <div className={styles.container}>
                 <img className={styles.back_image} src = "/images/BK-ROSETAS_FDCS.png"/>
-                <Link href='/website/welcome'>
+                <Link href='/website/emprendimiento'>
                    <button class={styles.btn_welcome}>Volver</button>
                </Link>
                 <div className={styles.content_login_emprendedor}>
@@ -73,42 +73,21 @@ let handleChange = (event) => {
                             <img className={styles.logo_emprendimiento} src = "/images/cubanitos.png"/>
                             <div >
                                 <h1 className={styles.description_emprendimeinto1}>
-                                    La manera más divertida y económica de comer en la U. Prueba uno de nuestros sándwich ¡No pararás de pedirlos!
+                                    ¡Tu opinión importa! Califica de la siguiente manera:
+                                    1: Deficiente
+                                    2: Insuficiente
+                                    3: Aceptable
+                                    4: Sobresaliente
+                                    5: Excelente
                                 </h1>
                                      <div className={styles.content_sub_emprendedor}>
-                                        <div className={styles.content_sub_sub}>
-                                            <h1 className={styles.descrip_horario}>
-                                                Horarios
+                                        <div className={styles.content_sub_sub5}>
+                                            <h1 className={styles.descrip_title_calification}>
+                                                ¡Calificanos!
                                             </h1>
-                                            <div className={styles.regularFont_horarios}>
-                                            <br/> <br/><br/>
-                                                Nuestros distribuidores están en la U de lunes a viernes en horarios de mañana y tarde
-                                            </div>  
                                         </div>
-                                        <div className={styles.content_sub_sub2}>
-                                            <h1 className={styles.descrip_productos}>
-                                                Redes Sociales
-                                            </h1> 
-                                            <div className={styles.regularFont_productos}>
-                                            <br/> <br/><br/>
-                                                <Link href=''>
-                                                    <button class={styles.btn_instagram}>Ir</button>
-                                                </Link>
-                                            </div> 
-                                        </div>
-                                        <div className={styles.content_sub_sub3}>
-                                            <h1 className={styles.descrip_contacto}>
-                                                Contacto
-                                            </h1> 
-                                            <Link href=''>
-                                                <button class={styles.btn_whatsapp}>WhatsApp</button>
-                                            </Link>
-                                        </div>
-                                        <div className={styles.content_sub_sub4}>
-                                            <h1 className={styles.descrip_calificacion}>
-                                                Calificación
-                                            </h1> 
-                                            <div className={styles.stars_container}>
+                                        <div className={styles.content_sub_sub6}>
+                                            <div className={styles.stars_container2}>
                                                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
                                                         <div class="rating">
                                                             <span>  <input type="radio" name="rating" id="str5" value="5"/><label for="str5"></label></span>
@@ -119,13 +98,25 @@ let handleChange = (event) => {
                                                         </div>
                                             </div>
                                         </div>
-                                        <div className={styles.content_image}>
-                                            <img className={styles.foto_emprendimiento} src = "/images/cubanitos_2.png"/>
+                                        <div className={styles.content_sub_sub7}>
+                                            <h1 className={styles.descriptions21}>
+                                                1
+                                            </h1>
+                                            <h1 className={styles.descriptions22}>
+                                                2
+                                            </h1>
+                                            <h1 className={styles.descriptions23}>
+                                                3
+                                            </h1>
+                                            <h1 className={styles.descriptions24}>
+                                                4
+                                            </h1>
+                                            <h1 className={styles.descriptions25}>
+                                                5
+                                            </h1>
                                         </div>
-                                        <div className={styles.content_options}>
-                                            <Link href='/website/foro'>
-                                                <button class={styles.btn_forum}>Calificar</button>
-                                            </Link>
+                                        <div className={styles.content_sub_sub8}>
+                                            <button class={styles.btn_enviar}>Enviar</button>
                                         </div>
                                     </div>
                             </div>
