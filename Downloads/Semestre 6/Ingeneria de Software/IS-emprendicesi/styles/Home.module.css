@@ -1,0 +1,918 @@
+.back_image{
+  position: static;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+	box-shadow: 0px 0px 3px 1px rgba(90,90,90,1);
+}
+
+.div_design_index{
+  position: absolute;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 62%;
+   margin-top: 16%;
+   height: 50%;
+   height:30%;
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+}
+
+.div_design_login{
+  position: absolute;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 62%;
+   margin-top: 15%;
+   height:700%
+  
+}
+
+.login_container{
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  
+
+}
+
+.btn_welcome{
+  height: 35px;
+  width: 162px;
+  position: relative;
+  display: relative;
+  margin: 0;
+  background-color: #fff;
+  padding: 0.2rem 2.0rem;
+  color: var(--color-secondary-900);
+  font-family: inherit;
+  font-size: 1.0rem;
+  font-weight: 300;
+  line-height: normal;
+  text-align: center;
+  border: 0;
+  border-radius: 0.4rem;
+  box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
+  margin-top: 15px;
+  position: absolute;
+  margin-right: -1250px;
+  border-radius: 15px;  
+}
+
+.container{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  max-width: 100%;
+  
+}
+
+.btn_inscription{
+  height: 35px;
+  width: 162px;
+  margin: 0;
+  background-color: #fff;
+  padding: 0.0rem 2.0rem;
+  font-weight: 300;
+  line-height: normal;
+  text-align: center;
+  border: 0;
+  border-radius: 0.4rem;
+  box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
+  background-size: contain;
+  position: absolute;
+  margin-top: 60px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-right: -1250px;
+}
+
+.menu{
+  height: 35px;
+  width: 162px;
+  margin: 0;
+  padding: 0.0rem 2.0rem;
+  background-size: contain;
+  position: absolute;
+  margin-left: -1300px;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 2.50;
+  font-size: 3rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1.0rem;
+  padding: 1.0rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 350px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 10%) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .btn_inscription{
+    margin-right: -1250px;
+  }
+
+  .btn_welcome{
+    margin-right: -1250px;
+  }
+
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #d6d6d6;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.navbarbut button{
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.centerdiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.horizontalflexdiv{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.buttondiv{
+  margin-top: 50px;
+}
+
+.content_login{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  margin-top: 12%;
+  height: 50%;
+	text-align: center;
+	padding: 25px;
+	border-radius: 8px;
+
+	-webkit-box-shadow: 0px 0px 9px 2px rgba(90,90,90,1);
+	-moz-box-shadow: 0px 0px 9px 2px rgba(90,90,90,1);
+	box-shadow: 0px 0px 9px 2px rgba(90,90,90,1);
+}
+
+.btn_login {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  background-color: #fff;
+  padding: 0.5rem 2.2rem;
+  color: var(--color-secondary-900);
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: normal;
+  border: 0;
+  border-radius: 0.4rem;
+  box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: background 250ms, box-shadow 250ms;
+}
+
+.title_emprendimiento{
+  font-style: bold;
+  font-size: 30px;
+}
+
+.descrip{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 33px;
+  color: burlywood;
+  -webkit-text-stroke: 0.1px black;
+}
+
+.entrepreneur_container{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin-top: 30%;
+  height: 70%;
+	text-align: center;
+	border-radius: 8px;
+  box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
+}
+
+.entrepreneur_sub_container1{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: left;
+  width: 35%;
+  margin-top: -25%;
+  margin-left: -45%;
+  height: 23%;
+	text-align: center;
+	border-radius: 8px;
+  box-shadow: 0px 0px 1px 0px rgba(90,90,90,90);
+}
+
+.entrepreneur_sub_container2{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: left;
+  width: 35%;
+  margin-top: -25%;
+  margin-left: 45%;
+  height: 23%;
+	text-align: center;
+	border-radius: 8px;
+  box-shadow: 0px 0px 1px 0px rgba(90,90,90,90);
+  
+}
+
+.entrepreneur_sub_container34{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: left;
+  width: 35%;
+  margin-top: 5%;
+  margin-left: -45%;
+  height: 23%;
+	text-align: center;
+	border-radius: 8px;
+  box-shadow: 0px 0px 1px 0px rgba(90,90,90,90);
+}
+
+.entrepreneur_sub_container35{
+  position: absolute;
+  display: flex;
+  width: 30%;
+  height: 100%;
+}
+
+.entrepreneur_sub_container4{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: left;
+  width: 35%;
+  margin-top: 5%;
+  margin-left: 45%;
+  height: 23%;
+	text-align: center;
+	border-radius: 8px;
+  box-shadow: 0px 0px 1px 0px rgba(90,90,90,90);
+}
+
+.entrepreneur_image1{
+  width: 130px;
+  height: 130px;
+}
+
+.entrepreneur_image2{
+  width: 130px;
+  height: 120px;
+}
+
+.title_entrepreneur1{
+  margin: 0;
+  line-height: 2.0;
+  font-size: 30px;
+  margin-left: 2%;
+  margin-top: -3%;
+  text-align: center;
+}
+
+.description_entrepreneur1{
+  font-size: 15px;
+  width: 100%;
+  margin-left: 8px;
+  font-style: normal;
+  text-align: left;
+}
+
+.btn_entrepreneur{
+  height: 30px;
+  width: 120px;
+  margin: 0;
+  background-color: #fff;
+  padding: 0.0rem 2.0rem;
+  line-height: normal;
+  text-align: center;
+  border: 0;
+  border-radius: 0.4rem;
+  box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
+  background-size: contain;
+  position: absolute;
+  margin-top: 130px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-left: 240px;
+}
+
+.btn_load{
+  height: 50px;
+  width: 200px;
+  margin: 0;
+  background-color: #fff;
+  padding: 0.0rem 2.0rem;
+  line-height: 1.0;
+  text-align: center;
+  border: 0;
+  border-radius: 0.4rem;
+  box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
+  background-size: contain;
+  position: absolute;
+  margin-top: 450px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-left: -0px;
+}
+
+.btn_create_entrepreneur{
+  align-items: center;
+  text-align: center;
+  height: 70px;
+  width: 100px;
+  border-radius: 0.4rem;
+  box-shadow: 0px 0px 1px 0px rgba(90,90,90,90);
+  background-size: contain;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 25%;
+  background-color: #fff;
+}
+
+.logo_emprendimiento{
+  width: 130px;
+  height: 130px;
+  margin-left: -400px;
+  margin-top: -540px;
+}
+
+.title_emprendimiento1{
+  margin: 0;
+  line-height: 2.0;
+  font-size: 55px;
+  margin-left: 2%;
+  margin-top: -310px;
+}
+
+.description_emprendimeinto1{
+  font-style: italic;
+  font-size: 20px;
+  margin-top: -200px;
+}
+
+.content_login_emprendedor{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  margin-top: 12%;
+  height: 80%;
+	text-align: center;
+	padding: 25px;
+	border-radius: 8px;
+
+	-webkit-box-shadow: 0px 0px 9px 2px rgba(90,90,90,1);
+	-moz-box-shadow: 0px 0px 9px 2px rgba(90,90,90,1);
+	box-shadow: 0px 0px 9px 2px rgba(90,90,90,1);
+}
+
+.content_sub_emprendedor{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  width: 75%;
+  margin-top: 3%;
+  height: 63%;
+	text-align: center;
+	padding: 25px;
+	border-radius: 8px;
+
+	-webkit-box-shadow: 0px 0px 9px 2px rgba(90,90,90,1);
+	-moz-box-shadow: 0px 0px 9px 2px rgba(90,90,90,1);
+	box-shadow: 0px 0px 9px 2px rgba(90,90,90,1);
+}
+
+.regularFont_horarios{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  align-items: left;
+  margin-left: -100px;
+}
+
+.regularFont_productos{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  align-items: left;
+  margin-left: -178px;
+  margin-top: -5px;
+}
+
+.descrip_horario{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 33px;
+  color: burlywood;
+  -webkit-text-stroke: 0.1px black;
+  align-items: left;
+}
+
+.descrip_productos{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 33px;
+  color: burlywood;
+  -webkit-text-stroke: 0.1px black;
+  align-items: left;
+}
+
+.descrip_contacto{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 33px;
+  color: burlywood;
+  -webkit-text-stroke: 0.1px black;
+  align-items: left;
+}
+
+.descrip_calificacion{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 33px;
+  color: burlywood;
+  -webkit-text-stroke: 0.1px black;
+  align-items: left;
+}
+
+.descrip_title_calification{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 40px;
+  color: burlywood;
+  -webkit-text-stroke: 0.1px black;
+  margin-left: 350px;
+  margin-top: 20px;
+}
+
+.btn_whatsapp{
+  height: 30px;
+  width: 150px;
+  margin: 0;
+  background-color: rgb(235, 165, 91);
+  padding: 0.0rem 2.0rem;
+  line-height: 1.0;
+  text-align: center;
+  border: 0;
+  border-radius: 0.4rem;
+  box-shadow: -1px 1px 8px rgba(1, 1, 1, 1);
+  background-size: contain;
+  position: absolute;
+  margin-top: 48px;
+  border-radius: 15px;
+  object-fit: cover;
+  font-size: 13px;
+}
+
+.btn_enviar{
+  height: 30px;
+  width: 150px;
+  margin: 0;
+  background-color: rgb(235, 165, 91);
+  padding: 0.0rem 2.0rem;
+  line-height: 1.0;
+  text-align: center;
+  border: 0;
+  border-radius: 0.4rem;
+  box-shadow: -1px 1px 8px rgba(1, 1, 1, 1);
+  background-size: contain;
+  position: absolute;
+  border-radius: 15px;
+  object-fit: cover;
+  font-size: 13px;
+  margin-left: 380px;
+}
+
+.btn_instagram{
+  height: 30px;
+  width: 150px;
+  margin: 0;
+  background-color: rgb(235, 165, 91);
+  padding: 0.0rem 2.0rem;
+  line-height: 1.0;
+  text-align: center;
+  border: 0;
+  border-radius: 0.4rem;
+  box-shadow: -1px 1px 8px rgba(1, 1, 1, 1);
+  background-size: contain;
+  position: absolute;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.btn_forum{
+  height: 30px;
+  width: 150px;
+  margin: 0;
+  background-color: rgb(235, 165, 91);
+  padding: 0.0rem 2.0rem;
+  line-height: 1.0;
+  text-align: center;
+  border: 0;
+  border-radius: 0.4rem;
+  box-shadow: -1px 1px 8px rgba(1, 1, 1, 1);
+  background-size: contain;
+  position: absolute;
+  margin-left: 60px;
+  border-radius: 15px;
+  object-fit: cover;
+  font-size: 13px;
+}
+
+.rating {
+  border: 0px;
+  width: 100%;
+  height: 2em;
+}
+.rating span { float:right; position:relative; }
+.rating span input {
+  position:absolute;
+  top:1000px;
+  left:1000px;
+  opacity:0;
+}
+.rating span label {
+  display: flex;
+  width:40px;
+  height:50px;
+  text-align:center;
+  color:#FFF;
+  background:#ccc;
+  font-size:30px;
+  margin-right:2px;
+  line-height:30px;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  
+}
+.rating span:hover ~ span label,
+.rating span:hover label,
+.rating span.checked label,
+.rating span.checked ~ span label {
+  background:#F90;
+  color:rgb(169, 34, 34);
+}
+
+.foto_emprendimiento{
+  width: 260px;
+  height: 280px;
+}
+
+.stars_container{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 13%;
+	text-align: center;
+	padding: 25px;
+	border-radius: 8px;
+  margin-top: 35px;
+}
+
+.stars_container2{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 80px;
+	text-align: center;
+	border-radius: 50px;
+  margin-top: 20px;
+  margin-left: 320px;
+  transform: scale(1.5);
+  border: 2px solid #999;
+
+}
+
+.entrepreneur_sub_container3{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: left;
+  width: 35%;
+  margin-top: 5%;
+  margin-left: -45%;
+  height: 23%;
+	text-align: center;
+	border-radius: 8px;
+  box-shadow: 0px 0px 1px 0px rgba(90,90,90,90);
+}
+
+.entrepreneur_sub_container30{
+  position: absolute;
+  display: flex;
+  margin-top: 2%;
+  margin-left: 35%;
+  width: 60%;
+  height: 35%;
+}
+
+.entrepreneur_sub_container31{
+  position: absolute;
+  display: flex;
+  margin-top: 12%;
+  margin-left: 35%;
+  width: 60%;
+  height: 50%;
+}
+
+.entrepreneur_create{
+  position: absolute;
+  display: flex;
+  margin-top: 5%;
+  margin-left: 25%;
+  width: 50%;
+  height: 70%;
+}
+
+.content_sub_sub{
+  position: absolute;
+  display: flex;
+  width: 60%;
+  height: 20%;
+}
+
+.content_sub_sub2{
+  position: absolute;
+  display: flex;
+  margin-top: 90px;
+  width: 60%;
+  height: 20%;
+}
+
+.content_sub_sub3{
+  position: absolute;
+  display: flex;
+  margin-top: 180px;
+  width: 60%;
+  height: 20%;
+}
+
+.content_sub_sub4{
+  position: absolute;
+  display: flex;
+  margin-top: 270px;
+  width: 60%;
+  height: 20%;
+}
+
+.content_sub_sub5{
+  position: absolute;
+  display: flex;
+  width: 95%;
+  height: 20%;
+}
+
+.content_sub_sub6{
+  position: absolute;
+  display: flex;
+  width: 95%;
+  height: 32%;
+  margin-top: 100px;
+}
+
+.content_sub_sub7{
+  position: absolute;
+  display: flex;
+  width: 95%;
+  height: 5%;
+  margin-top: 135px;
+  text-align: center;
+}
+
+.content_sub_sub8{
+  position: absolute;
+  display: flex;
+  width: 95%;
+  height: 10%;
+  margin-top: 250px;
+  text-align: center;
+}
+
+.descriptions21{
+  font-style: italic;
+  font-size: 15px;
+  margin-left: 392px;
+}
+
+.descriptions22{
+  font-style: italic;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.descriptions23{
+  font-style: italic;
+  font-size: 15px;
+  margin-left: 17px;
+}
+
+.descriptions24{
+  font-style: italic;
+  font-size: 15px;
+  margin-left: 16px;
+}
+
+.descriptions25{
+  font-style: italic;
+  font-size: 15px;
+  margin-left: 16px;
+}
+
+.content_image{
+  position: absolute;
+  display: flex;
+  margin-left: 580px;
+  width: 30%;
+  height: 70%;
+}
+
+.content_options{
+  position: absolute;
+  display: flex;
+  margin-left: 580px;
+  width: 30%;
+  height: 10%;
+  margin-top: 290px;
+}
+
+.content_welcome_image{
+  position: absolute;
+  display: flex;
+  width: 30%;
+  height: 100%;
+}
+
+.content_welcome_title{
+  position: absolute;
+  display: flex;
+  width: 65%;
+  height: 35%;
+  margin-left: 150px;
+}
+
+.content_welcome_description{
+  position: absolute;
+  display: flex;
+  width: 65%;
+  height: 55%;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+
+
+
+
