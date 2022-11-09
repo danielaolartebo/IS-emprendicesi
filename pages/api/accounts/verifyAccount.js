@@ -1,22 +1,13 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
+import {firebaseConfig} from "../firebaseConfig";
 
 export default async function verifyAccount(req, res) {
 
     const {method, body} = req;
 
-    const firebaseConfig = {
-        apiKey: "AIzaSyD_ntC7Nv8ocCc4eGHKtdSm1cKy7Vfr0Sc",
-        authDomain: "emprendicesi.firebaseapp.com",
-        projectId: "emprendicesi",
-        storageBucket: "emprendicesi.appspot.com",
-        messagingSenderId: "247396400452",
-        appId: "1:247396400452:web:1faebc1936c327769aeb11",
-        measurementId: "G-JR8J10ZQTQ"
-    };
-
     const app = initializeApp(firebaseConfig);
-    const auth = getAuth();
+    const auth = getAuth(app);
 
     if (method === "POST") {
 
