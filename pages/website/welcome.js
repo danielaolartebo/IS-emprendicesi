@@ -27,8 +27,7 @@ export default function Home() {
     return (
         <div className={styles.container}>
             <img className={styles.back_image} src="/images/BK-ROSETAS_FDCS.png"/ >
-                <button className={styles.btn_welcome} onClick={signOut}>Cerrar SesiÃ³n</button>
-
+                <button className={styles.btn_welcome} onClick={signOut}>Cerrar Sesión</button>
                 <Link href='/website/formulario'>
                     <button className={styles.btn_inscription}>Inscribir Emprendimiento</button>
                 </Link>
@@ -39,7 +38,7 @@ export default function Home() {
                             EMPRENDICESI
                         </h1>
                         <h1 className={styles.descrip}>
-                            Â¡Para todos aquellos que buscan emprender!
+                            ¡Para todos aquellos que buscan emprender!
                         </h1>
                         <br/>
                         <br/>
@@ -64,8 +63,8 @@ export default function Home() {
                         </div>
                         <div className={styles.content_welcome_description}>
                             <h1 className={styles.description_entrepreneur1}>
-                                La manera mÃ¡s divertida y econÃ³mica de comer en la U. Prueba uno de nuestros sÃ¡ndwich Â¡No
-                                pararÃ¡s de pedirlos!
+                                La manera más divertida y económica de comer en la U. Prueba uno de nuestros sándwich ¡No
+                                pararás de pedirlos!
                             </h1>
                         </div>
                         <Link href='/website/emprendimiento'>
@@ -83,8 +82,8 @@ export default function Home() {
                         </div>
                         <div className={styles.content_welcome_description}>
                             <h1 className={styles.description_entrepreneur1}>
-                                Galletas hechas en casa con mucho amor. CÃ³mplices en tu dulce crimen. Seguro que no te
-                                arrepentiras Â¡Escribenos por medio de WhatsApp!
+                                Galletas hechas en casa con mucho amor. Cómplices en tu dulce crimen. Seguro que no te
+                                arrepentiras ¡Escribenos por medio de WhatsApp!
                             </h1>
                         </div>
                         <Link href=''>
@@ -103,7 +102,7 @@ export default function Home() {
                         <div className={styles.content_welcome_description}>
                             <h1 className={styles.description_entrepreneur1}>
                                 Sal de la rutina con LeePops. Disfruta de nuestra varidad de sabores y colores en unas ricas
-                                crispetas. Â¡Contactanos para pedir las tuyas!
+                                crispetas. ¡Contactanos para pedir las tuyas!
                             </h1>
                         </div>
                         <Link href=''>
@@ -121,8 +120,8 @@ export default function Home() {
                         </div>
                         <div className={styles.content_welcome_description}>
                             <h1 className={styles.description_entrepreneur1}>
-                                Bites de brownie de milo ricos para toda ocasiÃ³n, perfectos para cualquier antojo y la mejor
-                                elecciÃ³n para un regalo. Â¡Encuentranos en el campus!
+                                Bites de brownie de milo ricos para toda ocasión, perfectos para cualquier antojo y la mejor
+                                elección para un regalo. ¡Encuentranos en el campus!
                             </h1>
                         </div>
                         <Link href=''>

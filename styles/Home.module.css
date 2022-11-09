@@ -583,6 +583,15 @@
   align-items: left;
 }
 
+.descrip_title_calification{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 40px;
+  color: burlywood;
+  -webkit-text-stroke: 0.1px black;
+  margin-left: 350px;
+  margin-top: 20px;
+}
+
 .btn_whatsapp{
   height: 30px;
   width: 150px;
@@ -599,12 +608,68 @@
   margin-top: 48px;
   border-radius: 15px;
   object-fit: cover;
+  font-size: 13px;
+}
+
+.btn_enviar{
+  height: 30px;
+  width: 150px;
+  margin: 0;
+  background-color: rgb(235, 165, 91);
+  padding: 0.0rem 2.0rem;
+  line-height: 1.0;
+  text-align: center;
+  border: 0;
+  border-radius: 0.4rem;
+  box-shadow: -1px 1px 8px rgba(1, 1, 1, 1);
+  background-size: contain;
+  position: absolute;
+  border-radius: 15px;
+  object-fit: cover;
+  font-size: 13px;
+  margin-left: 380px;
+}
+
+.btn_instagram{
+  height: 30px;
+  width: 150px;
+  margin: 0;
+  background-color: rgb(235, 165, 91);
+  padding: 0.0rem 2.0rem;
+  line-height: 1.0;
+  text-align: center;
+  border: 0;
+  border-radius: 0.4rem;
+  box-shadow: -1px 1px 8px rgba(1, 1, 1, 1);
+  background-size: contain;
+  position: absolute;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.btn_forum{
+  height: 30px;
+  width: 150px;
+  margin: 0;
+  background-color: rgb(235, 165, 91);
+  padding: 0.0rem 2.0rem;
+  line-height: 1.0;
+  text-align: center;
+  border: 0;
+  border-radius: 0.4rem;
+  box-shadow: -1px 1px 8px rgba(1, 1, 1, 1);
+  background-size: contain;
+  position: absolute;
+  margin-left: 60px;
+  border-radius: 15px;
+  object-fit: cover;
+  font-size: 13px;
 }
 
 .rating {
-  margin-bottom: 100px;
-  width:600px;
-  margin-top: 100%;
+  border: 0px;
+  width: 100%;
+  height: 2em;
 }
 .rating span { float:right; position:relative; }
 .rating span input {
@@ -615,8 +680,8 @@
 }
 .rating span label {
   display: flex;
-  width:30px;
-  height:30px;
+  width:40px;
+  height:50px;
   text-align:center;
   color:#FFF;
   background:#ccc;
@@ -636,8 +701,8 @@
 }
 
 .foto_emprendimiento{
-  width: 270px;
-  height: 320px;
+  width: 260px;
+  height: 280px;
 }
 
 .stars_container{
@@ -647,11 +712,28 @@
   justify-content: center;
   align-items: center;
   width: 30%;
-  height: 10%;
+  height: 13%;
 	text-align: center;
 	padding: 25px;
 	border-radius: 8px;
   margin-top: 35px;
+}
+
+.stars_container2{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 80px;
+	text-align: center;
+	border-radius: 50px;
+  margin-top: 20px;
+  margin-left: 320px;
+  transform: scale(1.5);
+  border: 2px solid #999;
+
 }
 
 .entrepreneur_sub_container3{
@@ -726,29 +808,84 @@
   height: 20%;
 }
 
+.content_sub_sub5{
+  position: absolute;
+  display: flex;
+  width: 95%;
+  height: 20%;
+}
+
+.content_sub_sub6{
+  position: absolute;
+  display: flex;
+  width: 95%;
+  height: 32%;
+  margin-top: 100px;
+}
+
+.content_sub_sub7{
+  position: absolute;
+  display: flex;
+  width: 95%;
+  height: 5%;
+  margin-top: 135px;
+  text-align: center;
+}
+
+.content_sub_sub8{
+  position: absolute;
+  display: flex;
+  width: 95%;
+  height: 10%;
+  margin-top: 250px;
+  text-align: center;
+}
+
+.descriptions21{
+  font-style: italic;
+  font-size: 15px;
+  margin-left: 392px;
+}
+
+.descriptions22{
+  font-style: italic;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.descriptions23{
+  font-style: italic;
+  font-size: 15px;
+  margin-left: 17px;
+}
+
+.descriptions24{
+  font-style: italic;
+  font-size: 15px;
+  margin-left: 16px;
+}
+
+.descriptions25{
+  font-style: italic;
+  font-size: 15px;
+  margin-left: 16px;
+}
+
 .content_image{
   position: absolute;
   display: flex;
   margin-left: 580px;
   width: 30%;
-  height: 84%;
+  height: 70%;
 }
 
-.btn_instagram{
-  height: 30px;
-  width: 150px;
-  margin: 0;
-  background-color: rgb(235, 165, 91);
-  padding: 0.0rem 2.0rem;
-  line-height: 1.0;
-  text-align: center;
-  border: 0;
-  border-radius: 0.4rem;
-  box-shadow: -1px 1px 8px rgba(1, 1, 1, 1);
-  background-size: contain;
+.content_options{
   position: absolute;
-  border-radius: 15px;
-  object-fit: cover;
+  display: flex;
+  margin-left: 580px;
+  width: 30%;
+  height: 10%;
+  margin-top: 290px;
 }
 
 .content_welcome_image{
@@ -774,3 +911,8 @@
   margin-left: 150px;
   margin-top: 50px;
 }
+
+
+
+
+
