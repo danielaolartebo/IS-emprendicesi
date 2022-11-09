@@ -89,6 +89,17 @@ yarn dev
 - *[Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.*
 - *[Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.*
 
+To create a new project:
+
+```bash
+npx create-next-app@latest
+# or
+yarn create next-app
+# or
+pnpm create next-app
+```
+
+
 *You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!*
 
 ## *Deploy on Vercel*
