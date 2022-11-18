@@ -45,21 +45,21 @@ export default function Home() {
             </div>
             <div className={styles.entrepreneur_sub_container2}>
                 <div className={styles.entrepreneur_create}>
-                    <Link href=''>
+                    <Link href='/website/crear_emprendimiento'>
                         <button class={styles.btn_create_entrepreneur}>Crear</button>
                     </Link>
                 </div>
             </div>
             <div className={styles.entrepreneur_sub_container34}>
                 <div className={styles.entrepreneur_create}>
-                    <Link href=''>
+                    <Link href='/website/crear_emprendimiento'>
                         <button class={styles.btn_create_entrepreneur}>Crear</button>
                     </Link>
                 </div>
             </div>
             <div className={styles.entrepreneur_sub_container4}>
                 <div className={styles.entrepreneur_create}>
-                    <Link href=''>
+                    <Link href='/website/crear_emprendimientogit '>
                         <button class={styles.btn_create_entrepreneur}>Crear</button>
                     </Link>
                 </div>
