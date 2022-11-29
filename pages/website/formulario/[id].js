@@ -1,12 +1,12 @@
 import styles from '/styles/Home.module.css'
 import Welcome from '/components/Welcome'
 import {useRouter} from 'next/router'
-import Link from 'next/link'
+
 
 export default function BusinessForm() {
 
-    const router = useRouter()
-    const cc = router.query.id
+    const routerU = useRouter()
+    const cc = routerU.query.id
 
     let data = {
         name: '',
@@ -47,9 +47,8 @@ export default function BusinessForm() {
         <div>
             <div className={styles.container}>
                 <img className={styles.back_image} src="/images/BK-ROSETAS_FDCS.png"/>
-                <Link href={{pathname: '/website/welcome/[subject]', query: {subject: cc}}}>
-                    <button class={styles.btn_welcome}>Volver</button>
-                </Link>
+                <button class={styles.btn_welcome} onClick={routerU.back}>Volver</button>
+
                 <div className={styles.content_login}>
                     <Welcome title='Login'></Welcome>
                     <main className={styles.main}>

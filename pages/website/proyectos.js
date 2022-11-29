@@ -1,14 +1,14 @@
 import styles from '/styles/Home.module.css'
 import Welcome from '/components/Welcome'
 import Link from 'next/link'
+import {router} from "next/client";
 
 export default function Home() {
     return (
         <div className={styles.container}>
-            <img className={styles.back_image} src = "/images/BK-ROSETAS_FDCS.png"/ >
-                <Link href='/website/welcome/[id]'>
-                   <button class={styles.btn_welcome}>Volver</button>
-               </Link>
+            <img className={styles.back_image} src = "/images/BK-ROSETAS_FDCS.png" />
+                <button class={styles.btn_welcome} onClick={router.back}>Volver</button>
+
          <div className={styles.div_design_index}>
            <Welcome title='EMPRENDICESI'></Welcome>
            <main className={styles.main}>
