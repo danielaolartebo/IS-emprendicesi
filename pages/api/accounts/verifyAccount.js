@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
+import { getFirestore, getDoc, setDoc, collection, doc } from "firebase/firestore";
 import {firebaseConfig} from "../firebaseConfig";
 
 export default async function verifyAccount(req, res) {
@@ -7,21 +8,38 @@ export default async function verifyAccount(req, res) {
     const {method, body} = req;
 
     const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
     const auth = getAuth(app);
 
     if (method === "POST") {
-        
-        let {user, password} = body.data;
-        user += '@u.icesi.edu.co'
+        let {id, password} = body.data;
 
-        signInWithEmailAndPassword(auth, user, password)
-            .then((userCredential) => {
+        signInWithEmailAndPassword(auth, id + '@u.icesi.edu.co', password)
+            .then(async (userCredential) => {
                 // Signed in
-                const user = userCredential.user;
+                let user = {
+                    cc: '',
+                    status: false
+                };
+                const docSnap  = await getDoc(doc(db, "users", id));
+
+                if (docSnap.exists()) {
+                    user.cc = docSnap.data().cc;
+                    user.status = docSnap.data().status;
+
+                } else {
+                    await setDoc(doc(collection(db, "users"), id), {
+                        cc: id,
+                        status: false
+                    })
+
+                    user.cc = id
+
+                }
 
                 res.send({
                     success: "true",
-                    user: JSON.stringify(user),
+                    user: user,
                     message: "Login Successful"
                 })
 

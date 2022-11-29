@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <div className={styles.container}>
             <img className={styles.back_image} src = "/images/BK-ROSETAS_FDCS.png"/ >
-                <Link href='/website/welcome'>
+                <Link href='/website/welcome/[id]'>
                    <button class={styles.btn_welcome}>Volver</button>
                </Link>
          <div className={styles.div_design_index}>

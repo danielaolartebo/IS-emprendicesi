@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5c7d9949-fd47-4ad6-9417-e28657e66b09" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/api/accounts/verifyAccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/accounts/verifyAccount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/website/welcome/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/website/welcome/[id].js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +46,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\carlo\OneDrive\Escritorio\Proyectos\IS-emprendicesi\pages\website\formulario" />
+      <recent name="C:\Users\carlo\OneDrive\Escritorio\Proyectos\IS-emprendicesi\pages\website\welcome" />
       <recent name="C:\Users\carlo\OneDrive\Escritorio\Proyectos\IS-emprendicesi\pages\api\accounts" />
     </key>
   </component>
@@ -57,7 +62,10 @@
       <workItem from="1665156430190" duration="188000" />
       <workItem from="1667155380034" duration="10130000" />
       <workItem from="1668004703954" duration="18000" />
-      <workItem from="1668005190601" duration="2885000" />
+      <workItem from="1668005190601" duration="3385000" />
+      <workItem from="1668181543799" duration="8000" />
+      <workItem from="1669672755657" duration="8701000" />
+      <workItem from="1669685842732" duration="1464000" />
     </task>
     <servers />
   </component>

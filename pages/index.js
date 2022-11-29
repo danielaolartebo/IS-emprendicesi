@@ -2,7 +2,7 @@ import styles from '/styles/Home.module.css'
 import Welcome from '/components/Welcome'
 
 let data = {
-    user: '',
+    id: '',
     password: '',
 }
 
@@ -13,7 +13,7 @@ let login = () => {
     async function handleSubmit(event) {
         event.preventDefault();
 
-        if (data.user == '' || data.password == '') {
+        if (data.id === '' || data.password === '') {
             alert('Ingrese todos los campos')
         }else {
 
@@ -27,10 +27,10 @@ let login = () => {
             })
 
             const json = await response.json();
+            const user = json.user;
 
-            if (json.success == 'true') {
-                console.log(json.data)
-                window.location.href = '/website/welcome'
+            if (json.success === 'true') {
+                window.location.href = '/website/welcome/' + user.cc + '?status=' + user.status
 
             } else {
                 alert(json.message)
@@ -45,7 +45,7 @@ let login = () => {
     let handleChange = (event) => {
         switch (event.target.id) {
             case 'id':
-                data.user = event.target.value;
+                data.id = event.target.value;
                 break;
             case 'password':
                 data.password = event.target.value;
