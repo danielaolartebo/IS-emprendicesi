@@ -18,7 +18,7 @@ let transporter = nodemailer.createTransport({
 
   export default async function sendEmail(email,subject, html){
         await transporter.sendMail({
-        from: '"Fred Foo 👻" <emprendicesi@gmail.com>', // sender address
+        from: '"EmprendIcesi" <emprendicesi@gmail.com>', // sender address
         to: email, // list of receivers
         subject: subject, // Subject line
         //text: "Hello world?", // plain text body

@@ -2,7 +2,7 @@
 import sendEmail from "../../models/mails/mailer";
 export default async  function handler(req, res) {
 
-  let emailTo = "algunemail@ejemplo.com"
+  let emailTo = "brayanortizbastidas82@gmail.com"
   let subject = "Mensaje desde servidor fantasma"
   let content = '<h1> hello world </h1>' // ideally should be in html format
   await sendEmail(emailTo, subject,content ).catch(console.error);

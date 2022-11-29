@@ -3,6 +3,7 @@ import Welcome from '/components/Welcome'
 import {useRouter} from 'next/router'
 import Link from 'next/link'
 
+
 export default function BusinessForm() {
 
     const router = useRouter()
@@ -18,14 +19,22 @@ export default function BusinessForm() {
     async function handleSubmit(event) {
         event.preventDefault();
 
-        if (data.name === '' || data.business_name === '' || data.description === '') {
-            alert('Ingrese todos los campos')
-        } else {
-            //correo
-            console.log(data)
+       let response = await fetch("http://localhost:3000/api/forms/emprendedor",{
+        method : "POST",
+        headers: {
+            "Content-Type":"application/json"
+        },
+        body: JSON.stringify(data)
+       })
 
-        }
+       let res = await response.json()
+       if (res.status === true){
+        alert("Formulario enviado")
+       }
+
     }
+
+    
 
     let handleChange = (event) => {
         switch (event.target.id) {
@@ -58,19 +67,19 @@ export default function BusinessForm() {
                             <div>
                                 <div>
                                     <input type="nombreEmprendedor" className='form-control' id='nombreEmprendedor'
-                                           onChange={handleChange} placeholder='Nombre completo'/>
+                                           onChange={handleChange} placeholder='Nombre completo' required/>
                                 </div>
                                 <br/>
                                 <div>
                                     <input type="nombreEmprendimiento" className='form-control'
                                            id='nombreEmprendimiento' onChange={handleChange}
-                                           placeholder='Nombre de emprendimiento'/>
+                                           placeholder='Nombre de emprendimiento' required />
                                 </div>
                                 <br/>
                                 <div>
                                     <input type="descripcionEmprendimiento" className='form-control'
                                            id='descripcionEmprendimiento' onChange={handleChange}
-                                           placeholder='Descripción del emprendimiento'/>
+                                           placeholder='Descripción del emprendimiento'required />
                                 </div>
                                 <br/>
                                 <div className='container'>
