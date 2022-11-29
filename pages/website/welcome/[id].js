@@ -77,7 +77,7 @@ export default function Home() {
                                 pararás de pedirlos!
                             </h1>
                         </div>
-                        <Link href='/website/emprendimiento'>
+                        <Link href='/website/emprendimiento/0'>
                             <button className={styles.btn_entrepreneur}>Ver</button>
                         </Link>
                     </div>
@@ -96,7 +96,7 @@ export default function Home() {
                                 arrepentiras ¡Escribenos por medio de WhatsApp!
                             </h1>
                         </div>
-                        <Link href='pages/website/welcome/[id]'>
+                        <Link href='/website/emprendimiento/1'>
                             <button className={styles.btn_entrepreneur}>Ver</button>
                         </Link>
                     </div>
@@ -116,7 +116,7 @@ export default function Home() {
                                 crispetas. ¡Contactanos para pedir las tuyas!
                             </h1>
                         </div>
-                        <Link href='pages/website/welcome/[id]'>
+                        <Link href='/website/emprendimiento/2'>
                             <button className={styles.btn_entrepreneur}>Ver</button>
                         </Link>
                     </div>
@@ -136,7 +136,7 @@ export default function Home() {
                                 elección para un regalo. ¡Encuentranos en el campus!
                             </h1>
                         </div>
-                        <Link href='pages/website/welcome/[id]'>
+                        <Link href='/website/emprendimiento/3'>
                             <button className={styles.btn_entrepreneur}>Ver</button>
                         </Link>
                     </div>

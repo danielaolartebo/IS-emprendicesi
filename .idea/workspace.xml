@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c7d9949-fd47-4ad6-9417-e28657e66b09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/website/emprendimiento/[id].js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/website/crear_emprendimiento.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/website/crear_emprendimiento.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/website/emprendimiento.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/website/emprendimiento.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/website/formulario/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/website/formulario/[id].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/forms/emprendedor.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/forms/emprendedor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/website/emprendimiento.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/website/foro.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/website/foro.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/website/proyectos.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/website/proyectos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/website/welcome/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/website/welcome/[id].js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package.json" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -47,6 +50,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\carlo\OneDrive\Escritorio\Proyectos\IS-emprendicesi\pages\website\emprendedor" />
       <recent name="C:\Users\carlo\OneDrive\Escritorio\Proyectos\IS-emprendicesi\pages\website\formulario" />
       <recent name="C:\Users\carlo\OneDrive\Escritorio\Proyectos\IS-emprendicesi\pages\website\welcome" />
       <recent name="C:\Users\carlo\OneDrive\Escritorio\Proyectos\IS-emprendicesi\pages\api\accounts" />
@@ -67,7 +71,7 @@
       <workItem from="1668181543799" duration="8000" />
       <workItem from="1669672755657" duration="8701000" />
       <workItem from="1669685842732" duration="1464000" />
-      <workItem from="1669693539212" duration="755000" />
+      <workItem from="1669693539212" duration="6331000" />
     </task>
     <servers />
   </component>

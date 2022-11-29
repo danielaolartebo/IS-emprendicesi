@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Cubanitos",
+    "description": "La manera más divertida y económica de comer en la U. Prueba uno de nuestros sándwich ¡No pararás de pedirlos!",
+    "image": "/images/cubanitos.png",
+    "image2": "/images/cubanitos_2.png",
+    "whatsapp": "",
+    "instagram": "https://www.instagram.com/cubanitos_cali/"
+  },
+  {
+    "name": "The Sweetest Crime",
+    "description": "Galletas hechas en casa con mucho amor. Cómplices en tu dulce crimen. Seguro que no te arrepentiras ¡Escribenos por medio de WhatsApp!",
+    "image": "/images/sweetestCrime.png",
+    "image2": "/images/Sweetest_Crime.jpg",
+    "whatsapp": "https://api.whatsapp.com/send?phone=573144078431&text=%F0%9F%91%8B%20Hola%2C%20vengo%20de%20https%3A%2F%2Fthesweetestcrime.ola.click%2F%20%0ADeseo%20realizar%20el%20siguiente%20pedido%3A%0A",
+    "instagram": "https://www.instagram.com/tsc.cookies/?igshid=YmMyMTA2M2Y%3D"
+  },
+  {
+    "name": "LeePops",
+    "description": "Sal de la rutina con LeePops. Disfruta de nuestra varidad de sabores y colores en unas ricas crispetas. ¡Contactanos para pedir las tuyas!",
+    "image": "/images/leePops.png",
+    "image2": "/images/Lee_Pops.jpg",
+    "whatsapp": "https://api.whatsapp.com/send?phone=573148910962",
+    "instagram": "https://www.instagram.com/leepops_/?igshid=YmMyMTA2M2Y%3D"
+  },
+  {
+    "name": "Mila Bites",
+    "description": "Bites de brownie de milo ricos para toda ocasión, perfectos para cualquier antojo y la mejor elección para un regalo. ¡Encuentranos en el campus!",
+    "image": "/images/milaBites.png",
+    "image2": "/images/Mila_Bites.jpg",
+    "whatsapp": "",
+    "instagram": "https://www.instagram.com/mila.bites/?igshid=YmMyMTA2M2Y%3D"
+  }
+]

@@ -39,7 +39,7 @@ export default function Home() {
                         La manera más divertida y económica de comer en la U. Prueba uno de nuestros sándwich ¡No pararás de pedirlos!
                     </h1>
                 </div>
-                <Link href='/website/emprendimiento'>
+                <Link href='/website/emprendimiento/[id]'>
                    <button class={styles.btn_entrepreneur}>Editar</button>
                 </Link>
             </div>
