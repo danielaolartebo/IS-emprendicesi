@@ -1,6 +1,7 @@
 import styles from '/styles/Home.module.css'
 import Welcome from '/components/Welcome'
 import Link from 'next/link'
+import {router} from "next/client";
 
 let data = {
     nombreEmprendimiento: '',
@@ -57,9 +58,7 @@ let handleChange = (event) => {
         <div>
             <div className={styles.container}>
                 <img className={styles.back_image} src = "/images/BK-ROSETAS_FDCS.png"/>
-                <Link href='/website/welcome/[id]'>
-                   <button class={styles.btn_welcome}>Volver</button>
-               </Link>
+                <button class={styles.btn_welcome} onClick={router.back}>Volver</button>
                 <div className={styles.content_create}>
                     <Welcome title='EMPRENDICESI'></Welcome>
                     <main className={styles.main}>
