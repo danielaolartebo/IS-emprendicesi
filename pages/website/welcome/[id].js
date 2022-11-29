@@ -1,8 +1,14 @@
 import styles from '/styles/Home.module.css'
 import Welcome from '/components/Welcome'
+import {useRouter} from 'next/router'
 import Link from 'next/link'
 
 export default function Home() {
+
+
+    const router = useRouter()
+    const cc = router.query.id
+    console.log(cc)
 
     let signOut = async () => {
         const response = await fetch('http://localhost:3000/api/accounts/verifyAccount', {
@@ -18,7 +24,7 @@ export default function Home() {
 
         if (json.success == 'true') {
             window.location.href = '/'
-        }else {
+        } else {
             alert(json.message)
         }
 
@@ -28,7 +34,7 @@ export default function Home() {
         <div className={styles.container}>
             <img className={styles.back_image} src="/images/BK-ROSETAS_FDCS.png"/ >
                 <button className={styles.btn_welcome} onClick={signOut}>Cerrar Sesión</button>
-                <Link href='/website/formulario'>
+                <Link href={{pathname: '/website/formulario/[subject]', query: {subject: cc}}}>
                     <button className={styles.btn_inscription}>Inscribir Emprendimiento</button>
                 </Link>
                 <div className={styles.div_design_index}>
@@ -63,7 +69,8 @@ export default function Home() {
                         </div>
                         <div className={styles.content_welcome_description}>
                             <h1 className={styles.description_entrepreneur1}>
-                                La manera más divertida y económica de comer en la U. Prueba uno de nuestros sándwich ¡No
+                                La manera más divertida y económica de comer en la U. Prueba uno de nuestros sándwich
+                                ¡No
                                 pararás de pedirlos!
                             </h1>
                         </div>
@@ -86,7 +93,7 @@ export default function Home() {
                                 arrepentiras ¡Escribenos por medio de WhatsApp!
                             </h1>
                         </div>
-                        <Link href=''>
+                        <Link href='pages/website/welcome/[id]'>
                             <button className={styles.btn_entrepreneur}>Ver</button>
                         </Link>
                     </div>
@@ -101,11 +108,12 @@ export default function Home() {
                         </div>
                         <div className={styles.content_welcome_description}>
                             <h1 className={styles.description_entrepreneur1}>
-                                Sal de la rutina con LeePops. Disfruta de nuestra varidad de sabores y colores en unas ricas
+                                Sal de la rutina con LeePops. Disfruta de nuestra varidad de sabores y colores en unas
+                                ricas
                                 crispetas. ¡Contactanos para pedir las tuyas!
                             </h1>
                         </div>
-                        <Link href=''>
+                        <Link href='pages/website/welcome/[id]'>
                             <button className={styles.btn_entrepreneur}>Ver</button>
                         </Link>
                     </div>
@@ -120,15 +128,16 @@ export default function Home() {
                         </div>
                         <div className={styles.content_welcome_description}>
                             <h1 className={styles.description_entrepreneur1}>
-                                Bites de brownie de milo ricos para toda ocasión, perfectos para cualquier antojo y la mejor
+                                Bites de brownie de milo ricos para toda ocasión, perfectos para cualquier antojo y la
+                                mejor
                                 elección para un regalo. ¡Encuentranos en el campus!
                             </h1>
                         </div>
-                        <Link href=''>
+                        <Link href='pages/website/welcome/[id]'>
                             <button className={styles.btn_entrepreneur}>Ver</button>
                         </Link>
                     </div>
-                    <Link href=''>
+                    <Link href='pages/website/welcome/[id]'>
                         <button className={styles.btn_load}>CARGAR MAS</button>
                     </Link>
                 </div>
