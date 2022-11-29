@@ -10,7 +10,7 @@ export default async function verifyAccount(req, res) {
     const auth = getAuth(app);
 
     if (method === "POST") {
-
+        
         let {user, password} = body.data;
         user += '@u.icesi.edu.co'
 
