@@ -18,12 +18,15 @@ export default async function verifyAccount(req, res) {
         signInWithEmailAndPassword(auth, id + '@u.icesi.edu.co', password)
             .then(async (userCredential) => {
                 // Signed in
-                let cc = '';
+                let user = {
+                    cc: '',
+                    status: false
+                };
                 const docSnap  = await getDoc(doc(db, "users", id));
 
                 if (docSnap.exists()) {
-                    cc = docSnap.data().cc;
-
+                    user.cc = docSnap.data().cc;
+                    user.status = docSnap.data().status;
 
                 } else {
                     await setDoc(doc(collection(db, "users"), id), {
@@ -31,13 +34,13 @@ export default async function verifyAccount(req, res) {
                         status: false
                     })
 
-                    cc = id
+                    user.cc = id
 
                 }
 
                 res.send({
                     success: "true",
-                    user: cc,
+                    user: user,
                     message: "Login Successful"
                 })
 

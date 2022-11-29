@@ -8,7 +8,7 @@ export default function Home() {
 
     const router = useRouter()
     const cc = router.query.id
-    console.log(cc)
+    const status = (router.query.status === 'true')
 
     let signOut = async () => {
         const response = await fetch('http://localhost:3000/api/accounts/verifyAccount', {
@@ -32,7 +32,7 @@ export default function Home() {
 
     return (
         <div className={styles.container}>
-            <img className={styles.back_image} src="/images/BK-ROSETAS_FDCS.png"/ >
+            <img className={styles.back_image} src="/images/BK-ROSETAS_FDCS.png" />
                 <button className={styles.btn_welcome} onClick={signOut}>Cerrar Sesión</button>
                 <Link href={{pathname: '/website/formulario/[subject]', query: {subject: cc}}}>
                     <button className={styles.btn_inscription}>Inscribir Emprendimiento</button>
@@ -53,9 +53,12 @@ export default function Home() {
                     </main>
                 </div>
                 <div className={styles.menu}>
-                    <Link href='/website/proyectos'>
+                    {status === true &&
+                        <Link href='/website/proyectos'>
                         <button className={styles.btn_welcome}>Proyectos</button>
-                    </Link>
+                        </Link>
+                    }
+
                 </div>
                 <div className={styles.entrepreneur_container}>
                     <div className={styles.entrepreneur_sub_container1}>

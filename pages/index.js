@@ -27,9 +27,10 @@ let login = () => {
             })
 
             const json = await response.json();
+            const user = json.user;
 
             if (json.success === 'true') {
-                window.location.href = '/website/welcome/' + json.user;
+                window.location.href = '/website/welcome/' + user.cc + '?status=' + user.status
 
             } else {
                 alert(json.message)
