@@ -1,0 +1,13 @@
+<state>
+  <timestamp value='1709000173962' />
+  <sourceSet name='default'>
+    <source name='C:\Users\sebas\Downloads\helloworld-ret\helloworld-ret\Printer.ice'>
+      <file name='C:\Users\sebas\Downloads\helloworld-ret\helloworld-ret\client\build\generated-src\Demo\Response.java' />
+      <file name='C:\Users\sebas\Downloads\helloworld-ret\helloworld-ret\client\build\generated-src\Demo\Printer.java' />
+      <file name='C:\Users\sebas\Downloads\helloworld-ret\helloworld-ret\client\build\generated-src\Demo\PrinterPrx.java' />
+      <file name='C:\Users\sebas\Downloads\helloworld-ret\helloworld-ret\client\build\generated-src\Demo\_PrinterPrxI.java' />
+    </source>
+    <arg value='C:\Program Files\ZeroC\Ice-3.7.10\\bin\slice2java.exe' />
+    <arg value='-IC:\Program Files\ZeroC\Ice-3.7.10\\slice' />
+  </sourceSet>
+</state>
