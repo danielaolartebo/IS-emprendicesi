@@ -1,0 +1,15 @@
+#
+# The client reads this property to create the reference to the
+# "hello" object in the server.
+#
+Printer.Proxy=SimplePrinter:tcp -p 9099
+CallBack.Endpoints=tcp -p 8020
+#
+# Uncomment to use the WebSocket transports instead.
+#
+#Hello.Proxy=hello:ws -p 10002:udp -p 10000:wss -p 10003
+
+
+# Only listen on the ZeroTier's LIASOn1 interface by default.
+#
+Ice.Default.Host=10.147.19.5 

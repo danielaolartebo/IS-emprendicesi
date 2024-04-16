@@ -1,0 +1,16 @@
+<state>
+  <timestamp value='1713223735171' />
+  <sourceSet name='default'>
+    <source name='C:\Users\sebas\Downloads\helloworld-ciclo-kbd-SebastianPaz-DanielaOlarte (1)\helloworld-ciclo-kbd-SebastianPaz-DanielaOlarte\helloworld-ret\helloworld-ret\Printer.ice'>
+      <file name='C:\Users\sebas\Downloads\helloworld-ciclo-kbd-SebastianPaz-DanielaOlarte (1)\helloworld-ciclo-kbd-SebastianPaz-DanielaOlarte\helloworld-ret\helloworld-ret\server\build\generated-src\Demo\Response.java' />
+      <file name='C:\Users\sebas\Downloads\helloworld-ciclo-kbd-SebastianPaz-DanielaOlarte (1)\helloworld-ciclo-kbd-SebastianPaz-DanielaOlarte\helloworld-ret\helloworld-ret\server\build\generated-src\Demo\CallBack.java' />
+      <file name='C:\Users\sebas\Downloads\helloworld-ciclo-kbd-SebastianPaz-DanielaOlarte (1)\helloworld-ciclo-kbd-SebastianPaz-DanielaOlarte\helloworld-ret\helloworld-ret\server\build\generated-src\Demo\Printer.java' />
+      <file name='C:\Users\sebas\Downloads\helloworld-ciclo-kbd-SebastianPaz-DanielaOlarte (1)\helloworld-ciclo-kbd-SebastianPaz-DanielaOlarte\helloworld-ret\helloworld-ret\server\build\generated-src\Demo\CallBackPrx.java' />
+      <file name='C:\Users\sebas\Downloads\helloworld-ciclo-kbd-SebastianPaz-DanielaOlarte (1)\helloworld-ciclo-kbd-SebastianPaz-DanielaOlarte\helloworld-ret\helloworld-ret\server\build\generated-src\Demo\_CallBackPrxI.java' />
+      <file name='C:\Users\sebas\Downloads\helloworld-ciclo-kbd-SebastianPaz-DanielaOlarte (1)\helloworld-ciclo-kbd-SebastianPaz-DanielaOlarte\helloworld-ret\helloworld-ret\server\build\generated-src\Demo\PrinterPrx.java' />
+      <file name='C:\Users\sebas\Downloads\helloworld-ciclo-kbd-SebastianPaz-DanielaOlarte (1)\helloworld-ciclo-kbd-SebastianPaz-DanielaOlarte\helloworld-ret\helloworld-ret\server\build\generated-src\Demo\_PrinterPrxI.java' />
+    </source>
+    <arg value='C:\Program Files\ZeroC\Ice-3.7.10\\bin\slice2java.exe' />
+    <arg value='-IC:\Program Files\ZeroC\Ice-3.7.10\\slice' />
+  </sourceSet>
+</state>
